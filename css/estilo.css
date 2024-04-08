@@ -1,0 +1,46 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    background: #070F2B;
+}
+p{
+    display: inline;
+}
+.navegacao__menu{
+    background-color: transparent;
+}
+.carousel{
+    margin: 0px auto;
+    width: 40%;
+    height: 30%;
+}
+.titulo__princiapal, .titulo__segundario{
+    color: #FFF;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.container__conteudo{
+    width: 80%;
+    margin: 0px auto;
+}
+.descrição__produto{
+    color: #FFF;
+}
+@media only screen and (max-width: 480px) {
+    .carousel{
+        width: 100%;
+        height: 100%;
+    }
+}
+.conteiner__compra{
+    width: 80%;
+    margin: 0px auto;
+}
+.conteudo__compra{
+    color: #FFF;
+}
+.botão__compra{
+    color: #FFF;
+    background-color: green;
+}
